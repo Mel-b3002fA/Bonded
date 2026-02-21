@@ -31,13 +31,25 @@ body{
     width: 50vw;
     padding-left: 0px;
     margin-top: 0px;
+    padding-top: 40px;
     display: flex;
     justify-content: space-between;
 }
 
 .header-wrapper-list-item{
     font-family: poppins;
-    font-size: 23px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1.6px;
     color: antiquewhite;
     text-transform: uppercase;
+}
+
+
+.landing-main{
+  font-family: MuseoModerno;
+  font-weight: 900;
+  color: antiquewhite;
+  font-size: 430px;
+  letter-spacing: -40px;
 }
