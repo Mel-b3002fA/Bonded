@@ -95,4 +95,44 @@ body{
    font-weight: 200;
    color: antiquewhite;
    padding-bottom: 150px;
+   margin-bottom: 0px;
+}
+
+.work{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(255, 51, 0);
+}
+
+
+.work-text-wrapper{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.work-small-wrapper{
+
+}
+
+.work-small{
+    width:96vw;
+    border-bottom: 1px solid antiquewhite;
+    margin: 0px;
+    font-weight: 300;
+    font-family: poppins;
+    font-size: 29px;
+    color: antiquewhite;
+    padding-bottom: 12px;
+}
+
+.work-overpara{
+    font-weight: 900;
+    font-family: poppins;
+    color: antiquewhite;
+    font-size: 60px;
+    line-height: 97%;
+    text-transform: uppercase;
+    padding-top: 16px;
+    margin: 0px;
 }
