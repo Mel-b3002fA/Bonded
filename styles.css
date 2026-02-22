@@ -94,14 +94,26 @@ body{
    font-family: poppins;
    font-weight: 200;
    color: antiquewhite;
-   padding-bottom: 150px;
+   padding-bottom: 80px;
    margin-bottom: 0px;
 }
 
 .work{
     width: 100vw;
-    height: fit-content;
+    height: 80vh;
     background-color: rgb(255, 51, 0);
+}
+
+.work-list{
+    margin-left: 0px;
+    padding-left: 30px;
+    margin-top: 60px;
+    height: fit-content;
+        margin-bottom: 180px;
+}
+
+.work-list-item{
+    width: fit-content;
 }
 
 
@@ -111,9 +123,6 @@ body{
     justify-content: center;
 }
 
-.work-small-wrapper{
-
-}
 
 .work-small{
     width:96vw;
@@ -135,4 +144,37 @@ body{
     text-transform: uppercase;
     padding-top: 16px;
     margin: 0px;
+}
+
+
+.work-list-item-name{
+ font-weight: 900;
+    font-family: poppins;
+    color: rgb(255, 51, 0);
+    font-size: 66px;
+    line-height: 97%;
+    text-transform: uppercase;
+    padding-top: 16px;
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+
+.work-list-item-name-place{
+    font-size: 20px;
+   font-family: poppins;
+   margin-top: 0px;
+   font-weight: 300;
+   padding-top: 9px;
+   letter-spacing: 0.3px;
+   color: rgb(255, 51, 0);
+   text-transform: uppercase;
+}
+
+.work-img{
+    width: 850px;
+}
+
+.work-list-item-div2{
+    border-bottom: 1px solid rgb(255, 51, 0);
 }
