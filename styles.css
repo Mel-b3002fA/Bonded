@@ -109,7 +109,10 @@ body{
     padding-left: 30px;
     margin-top: 60px;
     height: fit-content;
-        margin-bottom: 180px;
+    margin-bottom: 180px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 100px;
 }
 
 .work-list-item{
