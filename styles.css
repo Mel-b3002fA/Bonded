@@ -146,6 +146,12 @@ body{
     margin: 0px;
 }
 
+.work-list-item-number{
+    font-family: poppins;
+    font-size: 15px;
+    color: rgb(255, 51, 0);
+}
+
 
 .work-list-item-name{
  font-weight: 900;
@@ -160,7 +166,7 @@ body{
 }
 
 
-.work-list-item-name-place{
+.work-list-item-para{
     font-size: 20px;
    font-family: poppins;
    margin-top: 0px;
