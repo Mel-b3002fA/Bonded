@@ -107,7 +107,7 @@ body{
 .work-list{
     margin-left: 0px;
     padding-left: 30px;
-    margin-top: 60px;
+    margin-top: 18px;
     height: fit-content;
     margin-bottom: 180px;
     overflow-x: scroll;
@@ -149,6 +149,32 @@ body{
     margin: 0px;
 }
 
+.work-btn-wrapper{
+    width: 98vw;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+
+.work-btn1{
+    border: 1px solid antiquewhite;
+    background-color: rgba(255, 228, 196, 0);
+    border-radius: 50%;
+    color: antiquewhite;
+    padding: 9px 13px;
+}
+
+.work-btn2{
+    border: 1px solid antiquewhite;
+    background-color: rgba(255, 228, 196, 0);
+    border-radius: 50%;
+    color: antiquewhite;
+    padding: 9px 13px;
+    margin-left: 12px;
+}
+
+
+
 .work-list-item-number{
     font-family: poppins;
     font-size: 15px;
@@ -186,4 +212,13 @@ body{
 
 .work-list-item-div2{
     border-bottom: 1px solid rgb(255, 51, 0);
+}
+
+.services{
+    background-color: rgb(255, 51, 0);
+}
+
+
+.services-text-wrapper{
+    margin-top: 500px;
 }
