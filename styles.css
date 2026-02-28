@@ -244,11 +244,58 @@ body{
 
 .services-overpara{
     color:  rgb(255, 51, 0);
-        font-weight: 900;
+    font-weight: 900;
     font-family: poppins;
     font-size: 60px;
     line-height: 97%;
     text-transform: uppercase;
     padding-top: 16px;
     margin: 0px;
+}
+
+.services-list{
+    margin-left: 30px;
+    padding-left: 0px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.services-list-item{
+    width: 95.4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid rgb(255, 51, 0);
+    border-radius: 50px;
+    
+}
+
+.services-list-item-main{
+    color:  rgb(255, 51, 0);
+    font-weight: 900;
+    font-family: poppins;
+    font-size: 60px;
+    line-height: 97%;
+    text-transform: uppercase;
+    padding-top: 90px;
+    padding-bottom: 15px;
+    margin-left: 3.4%;
+    margin-right: 3.4%;
+    border-bottom: 1px solid rgb(255, 51, 0);
+}
+
+.services-wrapper{
+    margin-left: 3.4%;
+    margin-right: 3.4%;
+    padding-top: 40px;
+}
+
+.services-wrapper-item{
+    margin-top: 0px;
+    font-weight: 300;
+    font-family: poppins;
+    font-size: 29px;
+    color: rgb(255, 51, 0);
+    padding-bottom: 12px;
+    line-height: 60%;
 }
