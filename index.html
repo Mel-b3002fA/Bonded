@@ -24,7 +24,9 @@
                 <li class="header-wrapper-list-item">Follow</li>
             </ul>
     </header>
-        <div><p class="landing-main">Bonded</p></div>
+        <div class="landing-wrapper">
+            <p class="landing-main">Bonded</p>
+        </div>
     </section>
 
     <section class="ad">
@@ -77,14 +79,13 @@
     <section class="services">
          <div class="work-text-wrapper services-text-wrapper">
             <div class="work-small-wrapper">
-                <div class="work-small">WORKS</div>
-                <p class="work-overpara">Listen<br>to your<br>eyes</p>
+                <div class="services-small">SERVICES</div>
+                <p class="services-overpara">Listen<br>to your<br>eyes</p>
             </div>
         </div>
     </section>
 
-    <script>
-        const list = document.querySelector('.work-list');
+    <script>const list = document.querySelector('.work-list');
 const btnLeft = document.querySelector('.work-btn1');
 const btnRight = document.querySelector('.work-btn2');
 
@@ -96,7 +97,6 @@ btnLeft.addEventListener('click', () => {
 
 btnRight.addEventListener('click', () => {
   list.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-});
-    </script>
+});</script>
 </body>
 </html>
