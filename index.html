@@ -82,5 +82,21 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const list = document.querySelector('.work-list');
+const btnLeft = document.querySelector('.work-btn1');
+const btnRight = document.querySelector('.work-btn2');
+
+const scrollAmount = 600;
+
+btnLeft.addEventListener('click', () => {
+  list.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+});
+
+btnRight.addEventListener('click', () => {
+  list.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+});
+    </script>
 </body>
 </html>
